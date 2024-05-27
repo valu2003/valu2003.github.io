@@ -1,0 +1,50 @@
+*{margin: 0;
+
+    }
+.cuerpo{
+
+    display: grid;
+    
+   background-image: url("imagenes/840_560.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+.main{
+    color: white;
+    display:grid;
+    grid-row: 2/4;
+    grid-column: 1/2;
+}
+.aside{ 
+    color: rgb(253, 253, 253);
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+    display: grid;
+    grid-row: 2/3;
+    grid-column:2/4
+}
+.hs{ font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid;
+}
+.head{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: grid;
+    grid-row: 1/1;
+    grid-column: 1/4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fot{
+    
+    display: grid;
+    grid-row: 4/4;
+    grid-column: 1/4;
+}
+.menu{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+a{color: black;}
